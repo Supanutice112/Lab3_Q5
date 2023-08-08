@@ -7,6 +7,7 @@ import PassengerService from '@/services/PassengerService';
 import type { AxiosResponse } from 'axios';
 import PassengerCard from '@/components/PassengerCard.vue';
 
+
 const passengers: Ref<Array<PassengerItem>> = ref([])
 // EventService.getEvent().then((response) => {
 //   events.value = response.data
